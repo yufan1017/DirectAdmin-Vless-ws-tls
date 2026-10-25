@@ -2,7 +2,7 @@ process.on("uncaughtException", () => {});
 process.on("unhandledRejection", () => {});
 
 // ====== 只修改两个核心变量 UUID/DOMAIN ======
-const UUID = (process.env.UUID || "abcd1eb2-1c20-345a-96fa-cdf394612345").trim();        // 替换"双引号中的UUID"
+const UUID = (process.env.UUID || "59106361-8ad6-42c7-8bdd-67740f7dc7da").trim();        // 替换"双引号中的UUID"
 const DOMAIN = (process.env.DOMAIN || "abc.domain.dpdns.org").trim();                    // 替换"双引号中的完整域名"
  
 // Panel 配置
